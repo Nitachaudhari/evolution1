@@ -91,7 +91,6 @@ p{
     height:500px;
     max-width: 1200px;
     margin: 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 .title{
@@ -101,6 +100,7 @@ p{
     border-radius: 8px;
     overflow: hidden;
     width: 30%;
+    padding: 20px;
     transition: transform 0.3s;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -113,9 +113,21 @@ h6{
     width: 100%;
     height: 200px;
 }
+.format{
+    color: pink;
+    font-weight: bold;
+    text-align: left;
+}
 .lable{
+    border-radius: 8px;
     padding: 20px;
+    width: 20%;
     display: flex;
+    justify-content: center;
+}
+.logox-icon{
+    width: 20px;
+    height: 20px;
 }
 main{
     padding: 150px 20px;
